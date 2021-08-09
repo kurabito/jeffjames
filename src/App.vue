@@ -5,28 +5,17 @@
     </div>
     <div id="content">
       <router-view />
-      router-view above, FeatureList below
-      <FeatureList />
-      <img alt="Vue logo" src="./assets/logo.png">
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
     </div>
-    <!-- <div id="footer">
-      © 2002 - {{year}} Jeff James. All rights reserved.
-    </div> -->
     <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import FeatureList from './components/FeatureList.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    FeatureList,
     Footer
   }
 }
