@@ -1,22 +1,35 @@
 <template>
-	<div id="main">
-    <div id="header">
-      <a href="/"><img src="./assets/top.jpg" border="0" alt="Jeff James" /></a>
-    </div>
-    <div id="content">
-      <router-view />
-    </div>
-    <Footer />
+  <div id="header">
+    <a href="/"><img src="./assets/top.jpg" border="0" alt="Jeff James" /></a>
   </div>
+  <div id="content">
+
+    <!-- Hard coded image
+    <br />
+    <img src="./assets/top.jpg" />
+    <img v-bind:src="require('./assets/top.jpg')" />
+    <br />
+    Router
+    <br /> -->
+
+
+
+    <router-view />
+  </div>
+  <Footer />
 </template>
 
 <script>
 import Footer from './components/Footer.vue'
+// import FeatureList from './components/FeatureList.vue'
+// import Feature from './components/Feature.vue'
 
 export default {
   name: 'App',
   components: {
-    Footer
+    Footer,
+    // FeatureList,
+    // Feature
   }
 }
 </script>
@@ -50,7 +63,7 @@ h4
 {
 	font-size: 10pt;
 }
-#main
+#app
 {
 	width: 600px;
 	font-family: Verdana, Arial, Sans-Serif;
