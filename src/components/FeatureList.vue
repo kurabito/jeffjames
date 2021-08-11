@@ -1,10 +1,9 @@
 <template>
-  Feature List
   <nav>
     <!-- <div>
       <router-link to="/golf">Golf</router-link>
     </div> -->
-    <Feature link='/golf' image='top.jpg' title='Golf' />
+    <Feature link='golf' image='chambers.jpg' title='Golf' />
   </nav>
 </template>
 

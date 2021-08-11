@@ -128,6 +128,10 @@ h4
 {
 	height: 10px;
 }
+.feature
+{
+  text-align: center;
+}
 
 /* 
 body {
