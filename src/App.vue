@@ -1,7 +1,4 @@
 <template>
-  <div id="header">
-    <a href="/"><img src="./assets/top.jpg" border="0" alt="Jeff James" /></a>
-  </div>
   <div id="content">
 
     <!-- Hard coded image
@@ -41,15 +38,22 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
+  width: 1200px;
+  margin: auto
 }
 
-body
-{
+/* body
+{ */
 	/* center page content for IE */
+	/* text-align: center;
+	padding: 10px;
+} */
+/* body
+{ 
 	text-align: center;
 	padding: 10px;
-}
+} */
 a
 {
   color: black;
@@ -63,14 +67,43 @@ h4
 {
 	font-size: 10pt;
 }
-#app
+#header
+{
+	/* float: left;
+	width: 600px;
+	height: 100px;
+	border: 1px solid silver;
+	border-bottom: none; */
+	/* text-align: left; */
+  width: 1200px;
+  clear: both
+}
+#golf
+{
+  width: 500px;
+  margin: auto
+}
+#footer
+{
+	padding: 10px 0;
+	font-size: xx-small;
+}
+nav
+{
+  float: right
+}
+nav > span
+{
+  margin-left: 10px
+}
+/* #app
 {
 	width: 600px;
-	font-family: Verdana, Arial, Sans-Serif;
+	font-family: Verdana, Arial, Sans-Serif; */
 	/* center page content for Firefox */
-	margin: 0 auto 10px auto;
-}
-#header
+	/* margin: 0 auto 10px auto;
+} */
+/* #header
 {
 	float: left;
 	width: 600px;
@@ -84,9 +117,6 @@ h4
 	float: left;
 	width: 600px;
 	border: 1px solid silver;
-/*
-	padding: 20px;
-*/
 	padding: 15px 0 10px 0;
 	text-align: left;
 }
@@ -115,24 +145,27 @@ h4
 .small
 {
 	font-size: smaller;
-}
-.noborder
-{
+} */
+/* .noborder
+{ */
 /*	
 	border: none;
 */
-	padding: none;
+	/* padding: none;
 	margin: none;
 }
 .spacer
 {
 	height: 10px;
-}
+} */
 .feature
 {
   text-align: center;
 }
-
+.left
+{
+  float: left;
+}
 /* 
 body {
     text-align: center;

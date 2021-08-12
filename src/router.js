@@ -2,7 +2,7 @@ import {
     createRouter,
     createWebHistory
   } from 'vue-router/dist/vue-router.esm-bundler';
-  import FeatureList from './components/FeatureList.vue';
+  import Home from './components/Home.vue';
   // import Feature from './components/Feature.vue';
   import Golf from './components/Golf.vue';
   
@@ -12,8 +12,8 @@ import {
       routes: [
         {
           path: '/',
-          name: 'Features',
-          component: FeatureList
+          name: 'Home',
+          component: Home
         },
         {
           path: '/golf',
