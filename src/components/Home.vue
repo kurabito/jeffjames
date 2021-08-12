@@ -1,17 +1,16 @@
 <template>
-  <Header />
   <div>
       <a href="/"><img src="../assets/matia2014082.jpg" border="0" alt="Jeff James" /></a>
   </div>
 </template>
 
 <script>
-import Header from './Header.vue'
+// import Header from './Header.vue'
 
 export default {
   name: 'Home',
-  components: {
-    Header
-  }
+  // components: {
+  //   Header
+  // }
 }
 </script>

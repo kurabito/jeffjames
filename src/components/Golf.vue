@@ -1,5 +1,4 @@
 <template>
-  <Header />
     <div>
         <img src="../assets/chambers201205.jpg" border="0" alt="Golf" />
     </div>
@@ -491,27 +490,16 @@
             </tr>
         </table>
     </div>
-
-  <nav>
-    <!-- <div>
-      <router-link to="/golf">Golf</router-link>
-    </div> -->
-    <!-- <Feature link='golf' image='chambers.jpg' title='Golf' /> -->
-        <span><router-link to="/">home</router-link></span>
-        <span><a href="http://cedarriverbrewing.com" target="_blank">brewing</a></span>
-        <!-- <span><router-link to="/golf">golf</router-link></span> -->
-        <span>clock</span>
-  </nav>
 </template>
 
 <script>
-import Header from './Header.vue'
+// import Header from './Header.vue'
 
 export default {
   name: 'Golf',
-  components: {
-    Header
-  },
+//   components: {
+//     Header
+//   },
   props: {
     msg: String
   },

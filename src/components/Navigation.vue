@@ -1,9 +1,9 @@
 <template>
   <nav>
-    <span><a href="http://cedarriverbrewing.com" target="_blank">brewing</a></span>
+    <span><router-link to="/">home</router-link></span>
+    <span><router-link to="/brewing">brewing</router-link></span>
     <span><router-link to="/golf">golf</router-link></span>
-    <span>clock</span>
-    <span>test</span>
+    <span><router-link to="/clock">clock</router-link></span>
   </nav>
 </template>
 

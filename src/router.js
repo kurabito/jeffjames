@@ -3,8 +3,9 @@ import {
     createWebHistory
   } from 'vue-router/dist/vue-router.esm-bundler';
   import Home from './components/Home.vue';
-  // import Feature from './components/Feature.vue';
+  import Brewing from './components/Brewing.vue';
   import Golf from './components/Golf.vue';
+  import Clock from './components/Clock.vue';
   
   export default () =>
     createRouter({
@@ -16,9 +17,19 @@ import {
           component: Home
         },
         {
+          path: '/brewing',
+          name: 'Brewing',
+          component: Brewing
+        },
+        {
           path: '/golf',
           name: 'Golf',
           component: Golf
+        },
+        {
+          path: '/clock',
+          name: 'Clock',
+          component: Clock
         }
       ]
     });

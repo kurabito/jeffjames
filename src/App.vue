@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <div id="content">
 
     <!-- Hard coded image
@@ -17,6 +18,7 @@
 </template>
 
 <script>
+import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 // import FeatureList from './components/FeatureList.vue'
 // import Feature from './components/Feature.vue'
@@ -24,6 +26,7 @@ import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
+	Header,
     Footer,
     // FeatureList,
     // Feature
@@ -40,6 +43,7 @@ export default {
   color: #2c3e50;
   margin-top: 10px;
   width: 1200px;
+  /* min-height: 900px; */
   margin: auto
 }
 
@@ -78,10 +82,19 @@ h4
   width: 1200px;
   clear: both
 }
+#content
+{
+	min-height: 600px;
+}
 #golf
 {
   width: 500px;
   margin: auto
+}
+#clock
+{
+  /* height: 900px; */
+  font-size: 350%;
 }
 #footer
 {
@@ -92,7 +105,15 @@ nav
 {
   float: right
 }
+router-link
+{
+  margin-left: 10px
+}
 nav > span
+{
+  margin-left: 10px
+}
+.left-margin
 {
   margin-left: 10px
 }
@@ -165,6 +186,14 @@ nav > span
 .left
 {
   float: left;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /* 
 body {
