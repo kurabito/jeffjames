@@ -493,29 +493,7 @@
 </template>
 
 <script>
-// import Header from './Header.vue'
-
 export default {
-  name: 'Golf',
-//   components: {
-//     Header
-//   },
-  props: {
-    msg: String
-  },
-  data () {
-    return {
-      year: 0
-    }
-  },
-  methods: {
-    setYear () {
-        const date = new Date()
-        this.year = date.getFullYear()
-    }
-  },
-  mounted () {
-    this.setYear()
-  }
+  name: 'Golf'
 }
 </script>

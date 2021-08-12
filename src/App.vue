@@ -1,17 +1,6 @@
 <template>
   <Header />
   <div id="content">
-
-    <!-- Hard coded image
-    <br />
-    <img src="./assets/top.jpg" />
-    <img v-bind:src="require('./assets/top.jpg')" />
-    <br />
-    Router
-    <br /> -->
-
-
-
     <router-view />
   </div>
   <Footer />
@@ -20,16 +9,12 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-// import FeatureList from './components/FeatureList.vue'
-// import Feature from './components/Feature.vue'
 
 export default {
   name: 'App',
   components: {
 	Header,
-    Footer,
-    // FeatureList,
-    // Feature
+    Footer
   }
 }
 </script>
@@ -43,21 +28,8 @@ export default {
   color: #2c3e50;
   margin-top: 10px;
   width: 1200px;
-  /* min-height: 900px; */
   margin: auto
 }
-
-/* body
-{ */
-	/* center page content for IE */
-	/* text-align: center;
-	padding: 10px;
-} */
-/* body
-{ 
-	text-align: center;
-	padding: 10px;
-} */
 a
 {
   color: black;
@@ -73,12 +45,6 @@ h4
 }
 #header
 {
-	/* float: left;
-	width: 600px;
-	height: 100px;
-	border: 1px solid silver;
-	border-bottom: none; */
-	/* text-align: left; */
   width: 1200px;
   clear: both
 }
@@ -93,7 +59,6 @@ h4
 }
 #clock
 {
-  /* height: 900px; */
   font-size: 350%;
 }
 #footer
@@ -117,72 +82,6 @@ nav > span
 {
   margin-left: 10px
 }
-/* #app
-{
-	width: 600px;
-	font-family: Verdana, Arial, Sans-Serif; */
-	/* center page content for Firefox */
-	/* margin: 0 auto 10px auto;
-} */
-/* #header
-{
-	float: left;
-	width: 600px;
-	height: 100px;
-	border: 1px solid silver;
-	border-bottom: none;
-	text-align: left;
-}
-#content
-{
-	float: left;
-	width: 600px;
-	border: 1px solid silver;
-	padding: 15px 0 10px 0;
-	text-align: left;
-}
-#nav
-{
-	float: left;
-	width: 600px;
-	border: 1px solid silver;
-	border-top: none;
-	padding: 10px 0;
-	font-size: xx-small;
-}
-#footer
-{
-	float: left;
-	width: 600px;
-	border: 1px solid silver;
-	border-top: none;
-	padding: 10px 0;
-	font-size: xx-small;
-}
-.text
-{
-	padding: 15px;
-}
-.small
-{
-	font-size: smaller;
-} */
-/* .noborder
-{ */
-/*	
-	border: none;
-*/
-	/* padding: none;
-	margin: none;
-}
-.spacer
-{
-	height: 10px;
-} */
-.feature
-{
-  text-align: center;
-}
 .left
 {
   float: left;
@@ -195,24 +94,4 @@ nav > span
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* 
-body {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-div {
-    margin: 10px;
-}
-label {
-    display: block;
-}
-input {
-    width: 10ch;
-}
-a {
-    color: black;
-}
-h1 > a {
-    text-decoration: none;
-} */
 </style>
