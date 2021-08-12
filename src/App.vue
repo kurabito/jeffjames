@@ -39,10 +39,10 @@ a:hover
 {
 	text-decoration : underline
 }
-h4
+/* h4
 {
 	font-size: 10pt;
-}
+} */
 #header
 {
   width: 1200px;
@@ -59,7 +59,7 @@ h4
 }
 #clock
 {
-  font-size: 350%;
+  font-size: 200px;
 }
 #footer
 {
