@@ -27,7 +27,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 10px;
-  width: 1200px;
+  max-width: 1200px;
   margin: auto
 }
 a
@@ -43,9 +43,14 @@ a:hover
 {
 	font-size: 10pt;
 } */
+img
+{
+  max-width: 100%;
+  height: auto
+}
 #header
 {
-  width: 1200px;
+  max-width: 1200px;
   clear: both
 }
 #content
