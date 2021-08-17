@@ -36,3 +36,11 @@ export default {
   }
 }
 </script>
+
+<style>
+#clock
+{
+	height: 90vh;
+  font-size: 20vw;
+}
+</style>

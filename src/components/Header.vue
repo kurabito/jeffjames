@@ -15,3 +15,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#header
+{
+  max-width: 1200px;
+  clear: both
+}
+</style>

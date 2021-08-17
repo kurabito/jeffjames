@@ -497,3 +497,11 @@ export default {
   name: 'Golf'
 }
 </script>
+
+<style scoped>
+#golf
+{
+  width: 500px;
+  margin: auto
+}
+</style>

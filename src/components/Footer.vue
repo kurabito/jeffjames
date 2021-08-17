@@ -2,7 +2,7 @@
   <div id="footer">
     © 2002 - {{year}} Jeff James. All rights reserved.
   </div>
-  <div class="spacer">&nbsp;</div>
+  <!-- <div class="spacer">&nbsp;</div> -->
 </template>
 
 <script>
@@ -24,3 +24,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#footer
+{
+	font-size: xx-small;
+}
+</style>

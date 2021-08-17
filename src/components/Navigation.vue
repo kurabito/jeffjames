@@ -12,3 +12,14 @@ export default {
   name: 'Navigation'
 }
 </script>
+
+<style scoped>
+nav
+{
+  float: right
+}
+nav > span
+{
+  margin-left: 10px
+}
+</style>
