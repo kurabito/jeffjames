@@ -30,6 +30,10 @@ export default {
   max-width: 1200px;
   margin: auto
 }
+/* div
+{
+  position: relative;
+} */
 a
 {
   color: black;
@@ -43,6 +47,10 @@ a:hover
 {
 	font-size: 10pt;
 } */
+.absolute
+{
+  position: absolute
+}
 img
 {
   max-width: 100%;
@@ -50,13 +58,17 @@ img
 }
 #header
 {
+  /* position: absolute; */
   max-width: 1200px;
   clear: both
 }
 /* #content
-{
-	min-height: 600px;
-} */
+{ */
+	/* min-height: 600px; */
+  /* position: relative; */
+  /* top: 0;
+  bottom: 0 */
+/* } */
 #golf
 {
   width: 500px;
@@ -64,12 +76,16 @@ img
 }
 #clock
 {
-	height: 600px;
+	height: 85vh;
+  /* position: relative; */
   font-size: 20vw;
 }
 #footer
 {
-	padding: 10px 0;
+  /* position: fixed;
+  bottom: 0;
+  height: 20px; */
+	/* padding: 5px 0; */
 	font-size: xx-small;
 }
 nav
