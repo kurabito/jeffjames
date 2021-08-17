@@ -1,6 +1,8 @@
 <template>
-  <div id="clock" class="vertical-center">
-    {{hours}}:{{minutes}}:{{seconds}}
+  <div id="clock">
+    <div class="vertical-center">
+      {{hours}}:{{minutes}}:{{seconds}}
+    </div>
   </div>
 </template>
 

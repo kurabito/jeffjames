@@ -12,9 +12,9 @@ import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
-  components: {
-	Header,
-    Footer
+    components: {
+      Header,
+      Footer
   }
 }
 </script>
@@ -25,7 +25,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
   margin-top: 10px;
   max-width: 1200px;
   margin: auto
@@ -53,10 +53,10 @@ img
   max-width: 1200px;
   clear: both
 }
-#content
+/* #content
 {
 	min-height: 600px;
-}
+} */
 #golf
 {
   width: 500px;
@@ -64,7 +64,8 @@ img
 }
 #clock
 {
-  font-size: 200px;
+	height: 600px;
+  font-size: 20vw;
 }
 #footer
 {
