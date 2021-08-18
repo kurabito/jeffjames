@@ -259,7 +259,7 @@
                     <p><u>14th, Jefferson Park Golf Course, Friday November 23, 2007</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td width="150"><b>John Phillips</b></td><td class="score"><b>96</b></td><td class="score"><b>-28</b></td><td class="score"><b>68</b></td></tr>
+                        <tr><td class="name"><b>John Phillips</b></td><td class="score"><b>96</b></td><td class="score"><b>-28</b></td><td class="score"><b>68</b></td></tr>
                         <tr><td class="name">Mark Plummer</td><td>98</td><td>-23</td><td>75</td></tr>
                         <tr><td class="name">Jeff James</td><td>101</td><td>-22</td><td>79</td></tr>
                         <tr><td class="name">Cassie Phillips</td><td>119</td><td>-40</td><td>79</td></tr>
@@ -267,7 +267,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td width="150"><b>John Phillips</b></td><td class="score"><b>46</b></td><td class="score"><b>50</b></td><td class="score"><b>96</b></td></tr>
+                        <tr><td class="name"><b>John Phillips</b></td><td class="score"><b>46</b></td><td class="score"><b>50</b></td><td class="score"><b>96</b></td></tr>
                         <tr><td class="name">Mark Plummer</td><td>50</td><td>48</td><td>98</td></tr>
                         <tr><td class="name">Jeff James</td><td>50</td><td>51</td><td>101</td></tr>
                         <tr><td class="name">Keith James</td><td>55</td><td>58</td><td>113</td></tr>
@@ -277,7 +277,7 @@
                     <p><u>13th, Bellevue Municipal Golf Course, Friday November 24, 2006</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td width="150"><b>Keith James</b></td><td class="score"><b>101</b></td><td class="score"><b>-50</b></td><td class="score"><b>51</b></td></tr>
+                        <tr><td class="name"><b>Keith James</b></td><td class="score"><b>101</b></td><td class="score"><b>-50</b></td><td class="score"><b>51</b></td></tr>
                         <tr><td class="name">Jeff James</td><td>93</td><td>-40</td><td>53</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>94</td><td>-36</td><td>58</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>110</td><td>-50</td><td>60</td></tr>
@@ -287,7 +287,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td width="150"><b>Jeff James</b></td><td class="score"><b>49</b></td><td class="score"><b>44</b></td><td class="score"><b>93</b></td></tr>
+                        <tr><td class="name"><b>Jeff James</b></td><td class="score"><b>49</b></td><td class="score"><b>44</b></td><td class="score"><b>93</b></td></tr>
                         <tr><td class="name">Mark Plummer</td><td></td><td></td><td>94</td></tr>
                         <tr><td class="name">Keith James</td><td>54</td><td>47</td><td>101</td></tr>
                         <tr><td class="name">Ed Phillips</td><td></td><td></td><td>109</td></tr>
@@ -299,7 +299,7 @@
                     <p><u>12th, Twin Rivers Golf Course, Friday November 25, 2005</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td width="150"><b>Jeff James</b></td><td class="score"><b>101</b></td><td class="score"><b>-30</b></td><td class="score"><b>71</b></td></tr>
+                        <tr><td class="name"><b>Jeff James</b></td><td class="score"><b>101</b></td><td class="score"><b>-30</b></td><td class="score"><b>71</b></td></tr>
                         <tr><td class="name">Keith James</td><td>105</td><td>-30</td><td>75</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>94</td><td>-17</td><td>77</td></tr>
                         <tr><td class="name">Jeff Ridley</td><td>91</td><td>-8</td><td>83</td></tr>
@@ -309,7 +309,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td width="150"><b>Jeff Ridley</b></td><td class="score"><b>46</b></td><td class="score"><b>45</b></td><td class="score"><b>91</b></td></tr>
+                        <tr><td class="name"><b>Jeff Ridley</b></td><td class="score"><b>46</b></td><td class="score"><b>45</b></td><td class="score"><b>91</b></td></tr>
                         <tr><td class="name">Mark Plummer</td><td>48</td><td>46</td><td>94</td></tr>
                         <tr><td class="name">Jeff James</td><td>49</td><td>52</td><td>101</td></tr>
                         <tr><td class="name">Keith James</td><td>54</td><td>51</td><td>105</td></tr>
@@ -323,7 +323,7 @@
                         (Tide and Timber Nines)</p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table15">
-                        <tr><td width="150"><b>Cassie Phillips</b></td><td class="score"><b>122</b></td><td class="score"><b>-65</b></td><td class="score"><b>57</b></td></tr>
+                        <tr><td class="name"><b>Cassie Phillips</b></td><td class="score"><b>122</b></td><td class="score"><b>-65</b></td><td class="score"><b>57</b></td></tr>
                         <tr><td class="name">Keith James</td><td>110</td><td>-51</td><td>59</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>106</td><td>-35</td><td>71</td></tr>
                         <tr><td class="name">John Phillips</td><td>114</td><td>-32</td><td>82</td></tr>
@@ -331,7 +331,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table16">
-                        <tr><td width="150"><b>Mark Plummer</b></td><td class="score"><b></b></td><td class="score"><b></b></td><td class="score"><b>106</b></td></tr>
+                        <tr><td class="name"><b>Mark Plummer</b></td><td class="score"><b></b></td><td class="score"><b></b></td><td class="score"><b>106</b></td></tr>
                         <tr><td class="name">Keith James</td><td>52</td><td>58</td><td>110</td></tr>
                         <tr><td class="name">Jeff James</td><td>58</td><td>56</td><td>114</td></tr>
                         <tr><td class="name">John Phillips</td><td>55</td><td>59</td><td>114</td></tr>
@@ -344,7 +344,7 @@
                     <p><u>10th, Jackson Park Golf Course, Friday November 28, 2003</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table17">
-                        <tr><td width="150"><b>Jeff James</b></td><td class="score"><b>91</b></td><td class="score"><b>-27</b></td><td class="score"><b>64</b></td></tr>
+                        <tr><td class="name"><b>Jeff James</b></td><td class="score"><b>91</b></td><td class="score"><b>-27</b></td><td class="score"><b>64</b></td></tr>
                         <tr><td class="name">John Phillips</td><td>99</td><td>-24</td><td>75</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>103</td><td>-27</td><td>76</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>102</td><td>-23</td><td>79</td></tr>
@@ -353,7 +353,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table18">
-                        <tr><td width="150"><b>Jeff James</b></td><td class="score"><b>42</b></td><td class="score"><b>49</b></td><td class="score"><b>91</b></td></tr>
+                        <tr><td class="name"><b>Jeff James</b></td><td class="score"><b>42</b></td><td class="score"><b>49</b></td><td class="score"><b>91</b></td></tr>
                         <tr><td class="name">John Phillips</td><td>50</td><td>49</td><td>99</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>52</td><td>50</td><td>102</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>52</td><td>51</td><td>103</td></tr>
@@ -364,7 +364,7 @@
                     <p><u>9th, Bellevue Municipal Golf Course, Friday November 29, 2002</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table13">
-                        <tr><td width="150"><b>John Phillips</b></td><td class="score"><b>94</b></td><td class="score"><b>-30</b></td><td class="score"><b>64</b></td></tr>
+                        <tr><td class="name"><b>John Phillips</b></td><td class="score"><b>94</b></td><td class="score"><b>-30</b></td><td class="score"><b>64</b></td></tr>
                         <tr><td class="name">Bob Phillips</td><td>97</td><td>-32</td><td>65</td></tr>
                         <tr><td class="name">Keith James</td><td>103</td><td>-37</td><td>66</td></tr>
                         <tr><td class="name">Tim Murphy</td><td>94</td><td>-27</td><td>67</td></tr>
@@ -376,7 +376,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table14">
-                        <tr><td width="150"><b>Jeff Ridley</b></td><td class="score"><b>40</b></td><td class="score"><b>36</b></td><td class="score"><b>76</b></td></tr>
+                        <tr><td class="name"><b>Jeff Ridley</b></td><td class="score"><b>40</b></td><td class="score"><b>36</b></td><td class="score"><b>76</b></td></tr>
                         <tr><td class="name">Mike Baxter</td><td>43</td><td>44</td><td>87</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>45</td><td>48</td><td>93</td></tr>
                         <tr><td class="name">Tim Murphy</td><td>44</td><td>50</td><td>94</td></tr>
@@ -393,14 +393,14 @@
                     <p><u>8th, Twin Rivers Golf Course, Friday November 23, 2001</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table1">
-                        <tr><td width="150"><b>Jeff Ridley</b></td><td class="score"><b>75</b></td><td class="score"><b>-8</b></td><td class="score"><b>67</b></td></tr>
+                        <tr><td class="name"><b>Jeff Ridley</b></td><td class="score"><b>75</b></td><td class="score"><b>-8</b></td><td class="score"><b>67</b></td></tr>
                         <tr><td class="name">Jeff James</td><td>91</td><td>-16</td><td>75</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>93</td><td>-16</td><td>77</td></tr>
                         <tr><td class="name">Keith James</td><td>111</td><td>-29</td><td>82</td></tr>
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table2">
-                        <tr><td width="150"><b>Jeff Ridley</b></td><td class="score"><b>38</b></td><td class="score"><b>37</b></td><td class="score"><b>75</b></td></tr>
+                        <tr><td class="name"><b>Jeff Ridley</b></td><td class="score"><b>38</b></td><td class="score"><b>37</b></td><td class="score"><b>75</b></td></tr>
                         <tr><td class="name">Jeff James</td><td>44</td><td>47</td><td>91</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>51</td><td>42</td><td>93</td></tr>
                         <tr><td class="name">Keith James</td><td>56</td><td>55</td><td>111</td></tr>
@@ -409,7 +409,7 @@
                     <p><u>7th, Harbour Pointe Golf Course, Friday November 24, 2000</u></p>
                     <p>Low Net Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table3">
-                        <tr><td width="150"><b>Mark Plummer</b></td><td class="score"><b>93</b></td><td class="score"><b>-19</b></td><td class="score"><b>74</b></td></tr>
+                        <tr><td class="name"><b>Mark Plummer</b></td><td class="score"><b>93</b></td><td class="score"><b>-19</b></td><td class="score"><b>74</b></td></tr>
                         <tr><td class="name">Lee Bower</td><td>115</td><td>-38</td><td>77</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>108</td><td>-31</td><td>77</td></tr>
                         <tr><td class="name">John Phillips</td><td>106</td><td>-29</td><td>77</td></tr>
@@ -420,7 +420,7 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0" id="Table4">
-                        <tr><td width="150"><b>Jeff Ridley</b></td><td class="score"><b>46</b></td><td class="score"><b>41</b></td><td class="score"><b>87</b></td></tr>
+                        <tr><td class="name"><b>Jeff Ridley</b></td><td class="score"><b>46</b></td><td class="score"><b>41</b></td><td class="score"><b>87</b></td></tr>
                         <tr><td class="name">Mark Plummer</td><td>50</td><td>43</td><td>93</td></tr>
                         <tr><td class="name">Tim Murphy</td><td>56</td><td>46</td><td>102</td></tr>
                         <tr><td class="name">Jeff James</td><td>56</td><td>50</td><td>106</td></tr>
@@ -432,7 +432,7 @@
                     <br /><br />
                     <p><u>6th, Snohomish Golf Course, Friday November 26, 1999</u></p>
                     <table cellpadding="0" cellspacing="0" id="Table5">
-                        <tr><td width="150"><b>Jeff James</b></td><td class="score"><b>89</b></td></tr>
+                        <tr><td class="name"><b>Jeff James</b></td><td class="score"><b>89</b></td></tr>
                         <tr><td class="name">Mark Plummer</td><td>102</td></tr>
                         <tr><td class="name">John Phillips</td><td>103</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>106</td></tr>
@@ -442,7 +442,7 @@
                     <br /><br />
                     <p><u>5th, Lynnwood Golf Course, Friday November 27, 1998</u></p>
                     <table cellpadding="0" cellspacing="0" id="Table6">
-                        <tr><td width="150"><b>Tim Murphy</b></td><td class="score"><b>84</b></td></tr>
+                        <tr><td class="name"><b>Tim Murphy</b></td><td class="score"><b>84</b></td></tr>
                         <tr><td class="name">Jeff James</td><td>88</td></tr>
                         <tr><td class="name">Keith James</td><td>95</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>95</td></tr>
@@ -450,7 +450,7 @@
                     <br /><br />
                     <p><u>4th, Snoqualmie Falls Golf Course, Friday November 28, 1997</u></p>
                     <table cellpadding="0" cellspacing="0" id="Table7">
-                        <tr><td width="150"><b>Jeff Ridley</b></td><td class="score"><b>79</b></td></tr>
+                        <tr><td class="name"><b>Jeff Ridley</b></td><td class="score"><b>79</b></td></tr>
                         <tr><td class="name">Jeff James</td><td>96</td></tr>
                         <tr><td class="name">Mark Plummer</td><td>97</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>98</td></tr>
@@ -460,7 +460,7 @@
                     <br /><br />
                     <p><u>3rd, Lynnwood Golf Course, Friday November 29, 1996</u></p>
                     <table cellpadding="0" cellspacing="0" id="Table8">
-                        <tr><td width="150"><b>John Phillips</b></td><td class="score"><b>88</b></td></tr>
+                        <tr><td class="name"><b>John Phillips</b></td><td class="score"><b>88</b></td></tr>
                         <tr><td class="name">Jeff James</td><td>88</td></tr>
                         <tr><td class="name">Keith James</td><td>101</td></tr>
                         <tr><td class="name">Bob Phillips</td><td>105</td></tr>
@@ -472,7 +472,7 @@
                     <br /><br />
                     <p><u>2nd, Kenwanda Golf Course, Friday November 24, 1995</u></p>
                     <table cellpadding="0" cellspacing="0" id="Table9">
-                        <tr><td width="150"><b>Jeff James</b></td><td class="score"><b>96</b></td></tr>
+                        <tr><td class="name"><b>Jeff James</b></td><td class="score"><b>96</b></td></tr>
                         <tr><td class="name">Keith James</td></tr>
                         <tr><td class="name">Bob Phillips</td></tr>
                         <tr><td class="name">John Phillips</td></tr>
@@ -481,7 +481,7 @@
                     <br /><br />
                     <p><u>1st, Wayne Golf Course, Friday November 25, 1994</u></p>
                     <table cellpadding="0" cellspacing="0" id="Table10">
-                        <tr><td width="150"><b>Bob Phillips</b></td></tr>
+                        <tr><td class="name"><b>Bob Phillips</b></td></tr>
                         <tr><td class="name">John Phillips</td></tr>
                         <tr><td class="name">Jeff James</td><td class="score">94</td></tr>
                     </table>
