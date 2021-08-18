@@ -528,7 +528,7 @@ td
 }
 .name
 {
-    width: 120px;
+    width: 130px;
     text-align: left;
 }
 .score
