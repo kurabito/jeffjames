@@ -3,13 +3,13 @@
         <td class="name"><b>{{player}}</b></td>
         <td class="score"><b>{{front}}</b></td>
         <td class="score"><b>{{back}}</b></td>
-        <td class="score"><b>{{total()}}</b></td>
+        <td class="score"><b>{{gross()}}</b></td>
     </tr>
     <tr v-else>
         <td class="name">{{player}}</td>
         <td class="score">{{front}}</td>
         <td class="score">{{back}}</td>
-        <td class="score">{{total()}}</td>
+        <td class="score">{{gross()}}</td>
     </tr>
 </template>
 
@@ -23,7 +23,7 @@ export default {
       winner: String
   },
   methods: {
-      total() {
+      gross() {
           return Number(this.front) + Number(this.back);
       }
   }
