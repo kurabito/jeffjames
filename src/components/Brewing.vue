@@ -6,7 +6,7 @@
     <h2><a href="http://cedarriverbrewing.com" target="_blank">Cedar River Brewing Company</a></h2>
   </div>
   <div>
-    <h2><a href="https://www.jamesbrewing.com" target="_blank">James Brewing Calculators</a></h2>
+    <h2><a href="https://www.jamesbrewing.com" target="_blank">James Brewing</a></h2>
   </div>
 </template>
 
