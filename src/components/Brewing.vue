@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/brewing.jpg" border="0" alt="Jeff James" />
+    <img src="https://jeffjames.s3.us-west-2.amazonaws.com/brewing.jpg" border="0" alt="Jeff James" />
   </div>
   <div>
     <h2><a href="http://cedarriverbrewing.com" target="_blank">Cedar River Brewing Company</a></h2>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="../../assets/chambers201205.jpg" border="0" alt="Golf" />
+        <img src="https://jeffjames.s3.us-west-2.amazonaws.com/chambers201205.jpg" border="0" alt="Golf" />
     </div>
     <h1>Golf</h1>
     <div id="golf">
