@@ -9,6 +9,25 @@
         <table class="center">
             <tr>
                 <td class="center">
+                    <p><u>27th, Jackson Park Golf Course, Friday November 26, 2021</u></p>
+                    <p>Low Net Results</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <NetScore player="Bob Phillips" score="109" handicap="39" winner="true" />
+                        <NetScore player="Ed Phillips" score="110" handicap="29" />
+                        <NetScore player="Jeff James" score="115" handicap="34" />
+                        <NetScore player="John Phillips" score="110" handicap="26" />
+                        <NetScore player="Keith James" score="136" handicap="44" />
+                    </table>
+                    <p>Low Gross Results:</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <GrossScore player="Bob Phillips" front="54" back="55" winner="true" />
+                        <GrossScore player="Ed Phillips" front="55" back="55" />
+                        <GrossScore player="John Phillips" front="61" back="49" />
+                        <GrossScore player="Jeff James" front="61" back="54" />
+                        <GrossScore player="Keith James" front="68" back="68" />
+                    </table>
+                    <p class="notes">Light drizzle for most of the round.</p>
+                    <br /><br />
                     <p><u>26th, Bellevue Golf Course, Friday November 29, 2019</u></p>
                     <p>Low Net Results</p>
                     <table cellpadding="0" cellspacing="0">
