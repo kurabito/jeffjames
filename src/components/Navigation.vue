@@ -4,6 +4,9 @@
       <router-link to="/">home</router-link>
     </span>
     <span>
+      <a href="https://thorlyjames.com" target="_blank">thorly</a>
+    </span>
+    <span>
       <router-link to="/sake">sake</router-link>
     </span>
     <span>
