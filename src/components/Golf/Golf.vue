@@ -4,7 +4,7 @@
     </div>
     <h1>Golf</h1>
     <div id="golf">
-        <p align="center"><font size="4"><strong>FDJ Memorial Golf Tournament</strong></font></p>
+        <p align="center"><font size="4"><strong>FDJ Invitational Golf Tournament</strong></font></p>
         <p align="center">Tournament History</p><br>
         <table class="center">
             <tr>
