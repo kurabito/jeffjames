@@ -16,6 +16,9 @@
       <router-link to="/golf">golf</router-link>
     </span>
     <span>
+      <router-link to="/weather">weather</router-link>
+    </span>
+    <span>
       <router-link to="/clock">clock</router-link>
     </span>
   </nav>

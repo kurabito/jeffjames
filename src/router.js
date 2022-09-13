@@ -7,6 +7,7 @@ import {
   import Beer from './components/Beer.vue';
   import Golf from './components/Golf/Golf.vue';
   import Clock from './components/Clock.vue';
+  import Weather from './components/Weather.vue';
   
   export default () =>
     createRouter({
@@ -36,6 +37,11 @@ import {
           path: '/clock',
           name: 'Clock',
           component: Clock
+        },
+        {
+          path: '/weather',
+          name: 'Weather',
+          component: Weather
         }
       ]
     });
