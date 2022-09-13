@@ -1,25 +1,25 @@
 <template>
   <nav>
     <span>
-      <router-link to="/">home</router-link>
+      <router-link to="/">Home</router-link>
     </span>
     <span>
-      <a href="https://thorlyjames.com" target="_blank">thorly</a>
+      <a href="https://thorlyjames.com" target="_blank">Thorly</a>
     </span>
     <span>
-      <router-link to="/sake">sake</router-link>
+      <router-link to="/sake">Sake</router-link>
     </span>
     <span>
-      <router-link to="/beer">beer</router-link>
+      <router-link to="/beer">Beer</router-link>
     </span>
     <span>
-      <router-link to="/golf">golf</router-link>
+      <router-link to="/golf">Golf</router-link>
     </span>
     <span>
-      <router-link to="/weather">weather</router-link>
+      <router-link to="/weather">Weather</router-link>
     </span>
     <span>
-      <router-link to="/clock">clock</router-link>
+      <router-link to="/clock">Clock</router-link>
     </span>
   </nav>
 </template>
