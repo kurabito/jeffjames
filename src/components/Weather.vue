@@ -66,6 +66,10 @@ export default {
     mounted() {
         displayForecast2(document, 'script', 'tomorrow-sdk')
     },
+
+    updated() {
+        displayForecast2(document, 'script', 'tomorrow-sdk')
+    },
 }
 
 </script>
