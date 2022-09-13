@@ -58,6 +58,8 @@ function displayForecast2 (d, s, id) {
     fjs.parentNode.insertBefore(js, fjs);
 }
 
+displayForecast2(document, 'script', 'tomorrow-sdk')
+
 export default {
     name: 'Weather',
 
