@@ -25,8 +25,8 @@
           </a>
         </div>
 
-        <a class="weatherwidget-io" href="https://forecast7.com/en/47d61n122d33/seattle/?unit=us" data-label_1="SEATTLE"
-            data-label_2="WEATHER" data-theme="original"></a>
+        <!-- <a class="weatherwidget-io" href="https://forecast7.com/en/47d61n122d33/seattle/?unit=us" data-label_1="SEATTLE"
+            data-label_2="WEATHER" data-theme="original"></a> -->
 
         <iframe title="AQI" height="340" width="230"
             src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"
@@ -37,25 +37,11 @@
 
 <script>
 
-    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+// WeatherWidget.io
 
+    // !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
 
-        // (function(d, s, id) {
-        //     if (d.getElementById(id)) {
-        //         if (window.__TOMORROW__) {
-        //             window.__TOMORROW__.renderWidget();
-        //         }
-        //         return;
-        //     }
-        //     const fjs = d.getElementsByTagName(s)[0];
-        //     const js = d.createElement(s);
-        //     js.id = id;
-        //     js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
-
-        //     fjs.parentNode.insertBefore(js, fjs);
-        // })(document, 'script', 'tomorrow-sdk');
-
-// function displayForecast1(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }
+    // function displayForecast1(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }
 
 function displayForecast2 (d, s, id) {
     if (d.getElementById(id)) {
@@ -72,23 +58,12 @@ function displayForecast2 (d, s, id) {
     fjs.parentNode.insertBefore(js, fjs);
 }
 
-    // displayForecast2(document,  'script', 'tomorrow-sdk')
-
-
-
 export default {
     name: 'Weather',
 
     mounted() {
-        // displayForecast1(document, 'script', 'tomorrow-sdk');
         displayForecast2(document, 'script', 'tomorrow-sdk')
     },
-
-    // onUpdated: {
-    //     function() {
-    //         displayForecast2(document, 'script', 'tomorrow-sdk')
-    //     }
-    // }
 }
 
 </script>
