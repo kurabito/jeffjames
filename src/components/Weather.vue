@@ -65,7 +65,8 @@ export default {
     name: 'Weather',
 
     mounted() {
-        displayForecast2(document, 'script', 'tomorrow-sdk')
+        displayForecast2(document, 'script', 'tomorrow-sdk');
+        this.$forceUpdate();
     },
 
     // updated() {

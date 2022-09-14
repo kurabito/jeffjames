@@ -16,7 +16,7 @@
       <router-link to="/golf">Golf</router-link>
     </span>
     <span>
-      <router-link to="/weather" replace>Weather</router-link>
+      <router-link to="/weather">Weather</router-link>
     </span>
     <span>
       <router-link to="/clock">Clock</router-link>
