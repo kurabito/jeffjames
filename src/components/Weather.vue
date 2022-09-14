@@ -10,7 +10,7 @@
 
         <iframe title="Forecast" height="200" width="1200" 
             style="border: none;"
-            src="https://jeffjames.net/weather.html">
+            src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
         </iframe>
 
             <!-- src="http://localhost:8080/weather.html"> -->
