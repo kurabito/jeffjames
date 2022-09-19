@@ -13,10 +13,10 @@
             src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
         </iframe>
 
-            <!-- src="http://localhost:8080/weather.html"> -->
-
-            <!-- src="https://forecast.weather.gov/MapClick.php?lon=-122.36193&lat=47.46077#.YyE83nbMLIV"> -->
-
+        <iframe title="Forecast" height="200" width="1200" 
+            style="border: none;"
+            src="https://forecast.weather.gov/MapClick.php?lon=-122.36193&lat=47.46077#.YyE83nbMLIV">
+        </iframe>
 
         <iframe title="AQI" height="340" width="230"
             src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"
