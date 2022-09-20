@@ -23,6 +23,39 @@
             style="border: none; border-radius: 25px;">
         </iframe>
     </div>
+    <div>
+        forecast: {{ forecast }}
+    </div>
+    <!-- <div>
+        forecastObj: {{ forecastObj }}
+    </div>
+    <div>
+        forecastString: {{ forecastString }}
+    </div> -->
+    <!-- <div>
+        location: {{ location }}
+    </div> -->
+    <!-- <div>
+        periods: {{ startPeriodName }}
+        <ul>
+            <li v-for="item in startPeriodName" :key="item">
+                {{ item }}
+            </li>
+        </ul>
+    </div> -->
+    <!-- <div>
+        by index: {{ startPeriodName[1] }}
+    </div> -->
+    <div>
+        <span v-for="n in periods" :key="n"> 
+            {{ forecast.time.startPeriodName[n-1] }}
+            <!-- {{ forecast.data.weather[n-1] }} -->
+            {{ forecast.data.text[n-1] }} 
+            <img :src=forecast.data.iconLink[n-1] />
+            <!-- {{ weather[n-1] }}  -->
+            <br />
+        </span>
+    </div>
 </template>
 
 <script>
@@ -53,23 +86,59 @@
 
 // displayForecast2(document, 'script', 'tomorrow-sdk')
 
-// export default {
-//     name: 'Weather',
+import Axios from 'axios'
 
-//     mounted() {
-//         // displayForecast2(document, 'script', 'tomorrow-sdk');
-//         // this.$forceUpdate();
-//         // this.location.reload();
-//     },
+export default {
+    name: 'Weather',
 
-//     // updated() {
-//     //     displayForecast2(document, 'script', 'tomorrow-sdk')
-//     // },
-// }
+    data () {
+        return {
+            forecast: null,
+            periods: null,
+            // forecastObj: null,
+            // forecastString: null,
+            // location: null,
+            // startPeriodName: [],
+                // weather: []
+        }
+    },
+
+    mounted() {
+        // displayForecast2(document, 'script', 'tomorrow-sdk');
+        // this.$forceUpdate();
+        // this.location.reload();
+        Axios
+            // .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json&callback=jsonCallback')
+            .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
+            .then(response => (this.forecast = response.data,
+                // this.location = this.forecast.data.location,
+                // this.startPeriodName = this.forecast.data.time.startPeriodName,
+                // this.weather = this.forecast.data.data.weather
+                this.periods = this.forecast.time.startPeriodName.length));
+
+        // this.forecastObj = this.forecast.region;
+        // this.forecastObj = this.forecast.region;
+        // this.forecastString = JSON.stringify(this.forecastObj);
+        // let localObj = JSON.parse(this.forecast)
+        // let localJson = '{"region": "PNW", "x": "y"}'
+        // let localObj = JSON.parse(localJson)
+        // let localObj = JSON.parse(this.forecast);
+        // this.location = localObj.region;
+        // this.location = this.forecast.region;
+        
+    },
+
+    // updated() {
+    //     displayForecast2(document, 'script', 'tomorrow-sdk')
+    // },
+}
 
 </script>
 
 <style>
+.left {
+    float: left;
+}
 .clear {
     clear: both;
 }
