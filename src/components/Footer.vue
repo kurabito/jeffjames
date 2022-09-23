@@ -28,6 +28,7 @@ export default {
 <style scoped>
 #footer
 {
+  clear: both;
 	font-size: xx-small;
 }
 </style>

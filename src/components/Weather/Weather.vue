@@ -8,6 +8,23 @@
 
 <!-- <div id="ww_4a94d603a1e85" v='1.20' loc='id' a='{"t":"responsive","lang":"en","ids":["wl3620"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"7","sl_sot":"fahrenheit","sl_ics":"one_a","font":"Arial"}'>Weather Data Source: <a href="https://sharpweather.com/weather_seattle/" id="ww_4a94d603a1e85_u" target="_blank">sharpweather.com/weather_seattle/</a></div><script async src="https://srv1.weatherwidget.org/js/?id=ww_4a94d603a1e85"></script> -->
 
+            <div id="forecast">
+                <div id="period" v-for="n in periods" :key="n">
+                    <!-- <img id="forecastImage" :src=forecast.data.iconLink[n-1] />
+                                    <span id="forecastText">
+                                        <b>{{ forecast.time.startPeriodName[n-1] }}: </b>
+                                        {{ forecast.data.text[n-1] }}
+                                    </span> -->
+                    <Period :name="forecast.time.startPeriodName[n-1]" :imageUrl="forecast.data.iconLink[n-1]"
+                        :forecastText="forecast.data.text[n-1]"></Period>
+                </div>
+            </div>
+
+        <iframe title="AQI" height="340" width="230"
+            src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"
+            style="border: none; border-radius: 25px;">
+        </iframe>
+
         <iframe title="Forecast" height="200" width="1200" 
             style="border: none;"
             src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
@@ -17,15 +34,10 @@
             style="border: none;"
             src="https://forecast.weather.gov/MapClick.php?lon=-122.36193&lat=47.46077#.YyE83nbMLIV">
         </iframe>
-
-        <iframe title="AQI" height="340" width="230"
-            src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"
-            style="border: none; border-radius: 25px;">
-        </iframe>
     </div>
-    <div>
+    <!-- <div>
         forecast: {{ forecast }}
-    </div>
+    </div> -->
     <!-- <div>
         forecastObj: {{ forecastObj }}
     </div>
@@ -47,14 +59,16 @@
         by index: {{ startPeriodName[1] }}
     </div> -->
     <div>
-        <span v-for="n in periods" :key="n"> 
-            {{ forecast.time.startPeriodName[n-1] }}
-            <!-- {{ forecast.data.weather[n-1] }} -->
-            {{ forecast.data.text[n-1] }} 
+        <div class="period" v-for="n in periods" :key="n">
+            <div id="periodTitle">
+                {{ forecast.time.startPeriodName[n-1] }}
+            </div>
             <img :src=forecast.data.iconLink[n-1] />
+            <!-- {{ forecast.data.weather[n-1] }} -->
+            {{ forecast.data.text[n-1] }}
             <!-- {{ weather[n-1] }}  -->
             <br />
-        </span>
+        </div>
     </div>
 </template>
 
@@ -87,9 +101,14 @@
 // displayForecast2(document, 'script', 'tomorrow-sdk')
 
 import Axios from 'axios'
+import Period from './Period.vue'
 
 export default {
     name: 'Weather',
+
+    components: {
+        Period
+    },
 
     data () {
         return {
@@ -135,11 +154,33 @@ export default {
 
 </script>
 
-<style>
-.left {
+<style scoped>
+    h2 {
+        padding-top: 20px;
+    }
+    #forecast {
+        max-width: 45%;
+    }
+    #period {
+        float: left;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+ /*
+#forecastImage {
     float: left;
 }
-.clear {
-    clear: both;
-}
+#forecastText {
+    float: none;
+} */
+/* .period {
+    width: 7%;
+    float: left;
+} */
+/* #periodTitle {
+    min-height: 50px;
+} */
+    .clear {
+        clear: both;
+    }
 </style>
