@@ -1,12 +1,12 @@
 <template>
-    <div id="period">
+    <div class="period">
         <img :src=imageUrl />
-        <div id="periodText">
-            <div id="periodTitle">
+        <!-- <div id="periodText"> -->
+            <div class="periodTitle">
                 {{ name }}
             </div>
             {{ forecastText }}
-        </div>
+        <!-- </div> -->
     </div>
 </template>
 
@@ -24,15 +24,20 @@ export default {
     img {
         float: left
     }
-    #period {
+    .period {
         float: left;
+        /* max-width: 600px; */
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5px;
     }
-    #periodText {
+    /* .periodText {
         float: none;
         width: 60%;
         margin: auto
-    }
-    #periodTitle {
+    } */
+    .periodTitle {
+        width: 100%;
         font-weight: bold;
     }
 </style>
