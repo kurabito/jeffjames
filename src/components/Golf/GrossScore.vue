@@ -24,8 +24,11 @@ export default {
   },
   methods: {
       gross() {
-          return Number(this.front) + Number(this.back);
-      }
+        if (this.back == undefined)
+          { return ""; }
+        else
+          { return Number(this.front) + Number(this.back); } 
+    }
   }
 }
 </script>
