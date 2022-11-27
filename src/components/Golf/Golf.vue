@@ -548,7 +548,7 @@ export default {
 <style>
 #golf
 {
-  width: 500px;
+  max-width: 500px;
   margin: auto
 }
 table
