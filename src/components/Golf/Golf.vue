@@ -7,7 +7,7 @@
         <p align="center"><font size="4"><strong>FDJ Invitational Golf Tournament</strong></font></p>
         <p align="center">Tournament History</p><br>
         <table class="center">
-            <tr>0
+            <tr>
                 <td class="center">
                     <p><u>28th, Jefferson Park Golf Course, Friday November 25, 2022</u></p>
                     <p>Low Net Results</p>
