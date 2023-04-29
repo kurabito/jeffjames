@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <div>
       <img src="https://jeffjames.s3.us-west-2.amazonaws.com/sunset2011.jpg" border="0" alt="Sunset" />
     </div>
@@ -11,10 +11,10 @@
     <div>
       <h2><router-link to="/wordle">Wordle Tool</router-link></h2>
     </div>
-</template> -->
+</template>
   
-  <!-- <script>
+  <script>
   export default {
     name: 'Other'
   }
-  </script> -->
+  </script>
