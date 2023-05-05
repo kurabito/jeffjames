@@ -9,7 +9,7 @@
       <h2><router-link to="/clock">Clock</router-link></h2>
     </div>
     <div>
-      <h2><router-link to="/wordle">Wordle Tool</router-link></h2>
+      <h2><a href="https://www.wordlehelp.site" target="_blank">Wordle Help</a></h2>
     </div>
 </template>
   
