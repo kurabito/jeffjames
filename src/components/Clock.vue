@@ -1,9 +1,5 @@
 <template>
-  <div id="clock">
-    <div class="vertical-center">
-      {{hours}}:{{minutes}}:{{seconds}}
-    </div>
-  </div>
+  {{hours}}:{{minutes}}:{{seconds}}
 </template>
 
 <script>
@@ -36,11 +32,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-#clock
-{
-	height: 90vh;
-  font-size: 20vw;
-}
-</style>

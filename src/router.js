@@ -9,6 +9,8 @@ import {
   import Golf from './components/Golf/Golf.vue';
   import Clock from './components/Clock.vue';
   import Weather from './components/Weather/Weather.vue';
+  import Time from './components/Time.vue';
+  import Current from './components/Current.vue';
   
   export default () =>
     createRouter({
@@ -48,6 +50,16 @@ import {
           path: '/weather',
           name: 'Weather',
           component: Weather
+        },
+        {
+          path: '/time',
+          name: 'Time',
+          component: Time
+        },
+        {
+          path: '/current',
+          name: 'Current Time and Weather',
+          component: Current
         }
-      ]
+    ]
     });

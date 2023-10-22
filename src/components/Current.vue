@@ -1,13 +1,13 @@
 <template>
     <div class="clear">
-        <h2>Burien Weather</h2>
+        <!-- <h2>Burien Time and Weather</h2> -->
 
         <div id="clock">
             <Clock />
         </div>
 
         <div id="current">
-            <h3>Current Conditions from NOAA and EPA</h3>
+            <!-- <h3>Current Conditions from NOAA and EPA</h3> -->
             <div id="current-noaa">
                 <h4>{{ currentTemp }}&deg; F</h4>
                 <h4>{{ currentWeather }}</h4>
@@ -22,17 +22,17 @@
 
         <div class="spacer"></div>
 
-        <div id="forecast">
+        <!-- <div id="forecast">
             <h3>NOAA Forecast</h3>
             <div v-for="n in periods" :key="n">
                 <Period :name="noaaData.time.startPeriodName[n-1]" :imageUrl="noaaData.data.iconLink[n-1]"
                     :forecastText="noaaData.data.text[n-1]"></Period>
             </div>
-        </div>
+        </div> -->
 
         <div class="spacer"></div>
 
-        <h3>Tomorrow.io Forecast</h3>
+        <!-- <h3>Tomorrow.io Forecast</h3> -->
         <iframe title="Forecast" height="200" width="1200" 
             style="border: none;"
             src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
@@ -42,16 +42,38 @@
 
 <script>
 
-import Clock from '../Clock.vue'
+// import App from '../App.vue'
+import Clock from './Clock.vue'
 import Axios from 'axios'
-import Period from './Period.vue'
+// import Period from './Period.vue'
 
 export default {
-    name: 'Weather',
+    name: 'Current',
 
     components: {
         Clock,
-        Period
+        // Period
+    },
+
+    methods: {
+        setRefreshCurrent (interval) {
+            setInterval(() => {
+                location.reload(true)
+            }, interval)
+        },
+
+        updateWeather (interval) {
+            setInterval(() => {
+                Axios
+                    .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
+                    .then(response => (this.noaaData = response.data,
+                        this.currentTemp = this.noaaData.currentobservation.Temp,
+                        this.currentWeather = this.noaaData.currentobservation.Weather,
+                        this.windSpeed = this.noaaData.currentobservation.Winds,
+                        this.windDirection = this.noaaData.currentobservation.Windd,
+                        this.periods = this.noaaData.time.startPeriodName.length));
+            }, interval)
+        }
     },
 
     data () {
@@ -66,14 +88,16 @@ export default {
     },
 
     mounted() {
-        Axios
-            .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
-            .then(response => (this.noaaData = response.data,
-                this.currentTemp = this.noaaData.currentobservation.Temp,
-                this.currentWeather = this.noaaData.currentobservation.Weather,
-                this.windSpeed = this.noaaData.currentobservation.Winds,
-                this.windDirection = this.noaaData.currentobservation.Windd,
-                this.periods = this.noaaData.time.startPeriodName.length));
+        // Axios
+        //     .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
+        //     .then(response => (this.noaaData = response.data,
+        //         this.currentTemp = this.noaaData.currentobservation.Temp,
+        //         this.currentWeather = this.noaaData.currentobservation.Weather,
+        //         this.windSpeed = this.noaaData.currentobservation.Winds,
+        //         this.windDirection = this.noaaData.currentobservation.Windd,
+        //         this.periods = this.noaaData.time.startPeriodName.length));
+        // this.setRefreshCurrent(60000)
+        this.updateWeather(60000)
     },
 }
 
@@ -88,7 +112,9 @@ export default {
         margin-bottom: auto;
     }
     #clock {
-        height: 20px;
+        /* float: left; */
+        height: 100px;
+        font-size: 48px;
     }
     #current {
         width: max-content;
@@ -97,6 +123,7 @@ export default {
     #current-noaa {
         float: left;
         margin-right: 50px;
+        font-size: 24px;
     }
     #aqi {
         float: left;
