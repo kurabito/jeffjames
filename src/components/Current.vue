@@ -9,6 +9,7 @@
         <div id="current">
             <!-- <h3>Current Conditions from NOAA and EPA</h3> -->
             <div id="current-noaa">
+                <h3>Conditions at SEA</h3>
                 <h4>{{ currentTemp }}&deg; F</h4>
                 <h4>{{ currentWeather }}</h4>
                 <span class="left">Wind Speed: {{ windSpeed }}</span><br />
@@ -33,7 +34,7 @@
         <div class="spacer"></div>
 
         <!-- <h3>Tomorrow.io Forecast</h3> -->
-        <iframe title="Forecast" height="200" width="1200" 
+        <iframe title="Forecast" height="200" width="900" 
             style="border: none;"
             src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
         </iframe>
@@ -142,6 +143,6 @@ export default {
     }
     .spacer {
         clear: both;
-        height: 20px;
+        height: 5px;
     }
 </style>
