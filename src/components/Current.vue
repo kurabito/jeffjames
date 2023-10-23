@@ -15,7 +15,7 @@
 
             <iframe src="https://calendar.google.com/calendar/embed?height=230&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=amVmZmphbWVzQGdtYWlsLmNvbQ&src=MjZ0azZncGc1NDVuNTExbG9mOW03a2tqbTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NWpqZzIzY21ydDQ5MG01M2ppbzRyb2EyMmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OHRtNmo4MWE0cGk5ZXVuZmRmZGdqbDFoZjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGhvcmx5QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cGpndjhtMmhtMGpuZDlzYWhlcG9xMjFqMzI5cmVmMzNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=MDYzZmJqc3Fia2Q5dGx1ODRjZDk4bG01NDhsZDRrOWtAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bnl0aW1lcy5jb21fODlhaTRpanBiNzMzZ3QyOHJnMjFkMmMyZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%239E69AF&color=%23D50000&color=%23F6BF26&color=%23A79B8E&color=%23E67C73&color=%2333B679&color=%23616161&color=%23039BE5&color=%23D50000&color=%233F51B5" class="pad-right" style="border:solid 1px #777" width="400" height="230" frameborder="0" scrolling="no"></iframe>
 
-            <iframe src="https://embed.waze.com/iframe?zoom=10&lat=47.45&lon=-122.3&ct=livemap" width="250" height="230" allowfullscreen></iframe>
+            <iframe src="https://embed.waze.com/iframe?zoom=10&lat=47.45&lon=-122.3&ct=livemap" width="230" height="230" allowfullscreen></iframe>
 
             <!-- <AQI /> -->
         </div>
