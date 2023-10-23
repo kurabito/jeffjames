@@ -6,54 +6,54 @@
             <Clock />
         </div>
 
+        <!-- <h3>Tomorrow.io Forecast</h3> -->
+        <!-- <iframe title="Forecast" height="200" width="900" 
+            style="border: none;"
+            src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
+        </iframe> -->
+        <Forecast />
+
         <div id="current">
             <!-- <h3>Current Conditions from NOAA and EPA</h3> -->
-            <div id="current-noaa">
+            <!-- <div id="current-noaa">
                 <h3>Conditions at SEA</h3>
-                <h4>{{ currentTemp }}&deg; F</h4>
+                 <h4>{{ currentTemp }}&deg; F</h4>
                 <h4>{{ currentWeather }}</h4>
                 <span class="left">Wind Speed: {{ windSpeed }}</span><br />
-                <span class="left">Wind Direction: {{ windDirection }}</span>
-            </div>
+                <span class="left">Wind Direction: {{ windDirection }}</span> -->
+                <!-- <CurrentNOAA /> 
+            </div> -->
             <iframe id="aqi" title="AQI" height="230" width="230"
                 src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"
                 style="border: none; border-radius: 25px;">
             </iframe>
+
+            <iframe src="https://embed.waze.com/iframe?zoom=10&lat=47.45&lon=-122.3&ct=livemap" width="600" height="230" allowfullscreen></iframe>
+
+            <!-- <AQI /> -->
         </div>
 
         <div class="spacer"></div>
 
-        <!-- <div id="forecast">
-            <h3>NOAA Forecast</h3>
-            <div v-for="n in periods" :key="n">
-                <Period :name="noaaData.time.startPeriodName[n-1]" :imageUrl="noaaData.data.iconLink[n-1]"
-                    :forecastText="noaaData.data.text[n-1]"></Period>
-            </div>
-        </div> -->
-
-        <div class="spacer"></div>
-
-        <!-- <h3>Tomorrow.io Forecast</h3> -->
-        <iframe title="Forecast" height="200" width="900" 
-            style="border: none;"
-            src="https://jeffjames.s3.us-west-2.amazonaws.com/weather.html">
-        </iframe>
     </div>
 </template>
 
 <script>
 
-// import App from '../App.vue'
 import Clock from './Clock.vue'
-import Axios from 'axios'
-// import Period from './Period.vue'
+// import Axios from 'axios'
+// import CurrentNOAA from './Weather/CurrentNOAA.vue'
+// import AQI from './Weather/AQI.vue'
+import Forecast from './Weather/Forecast.vue'
 
 export default {
     name: 'Current',
 
     components: {
         Clock,
-        // Period
+        // CurrentNOAA,
+        // AQI,
+        Forecast
     },
 
     methods: {
@@ -63,18 +63,20 @@ export default {
             }, interval)
         },
 
-        updateWeather (interval) {
-            setInterval(() => {
-                Axios
-                    .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
-                    .then(response => (this.noaaData = response.data,
-                        this.currentTemp = this.noaaData.currentobservation.Temp,
-                        this.currentWeather = this.noaaData.currentobservation.Weather,
-                        this.windSpeed = this.noaaData.currentobservation.Winds,
-                        this.windDirection = this.noaaData.currentobservation.Windd,
-                        this.periods = this.noaaData.time.startPeriodName.length));
-            }, interval)
-        }
+        // updateWeather (interval) {
+        //     setInterval(() => {
+        //         // Axios
+        //         //     .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
+        //         //     .then(response => (this.noaaData = response.data,
+        //         //         this.currentTemp = this.noaaData.currentobservation.Temp,
+        //         //         this.currentWeather = this.noaaData.currentobservation.Weather,
+        //         //         this.windSpeed = this.noaaData.currentobservation.Winds,
+        //         //         this.windDirection = this.noaaData.currentobservation.Windd,
+        //         //         this.periods = this.noaaData.time.startPeriodName.length));
+
+        //         CurrentNOAA.updateWeather()
+        //     }, interval)
+        // }
     },
 
     data () {
@@ -88,18 +90,18 @@ export default {
         }
     },
 
-    mounted() {
-        // Axios
-        //     .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
-        //     .then(response => (this.noaaData = response.data,
-        //         this.currentTemp = this.noaaData.currentobservation.Temp,
-        //         this.currentWeather = this.noaaData.currentobservation.Weather,
-        //         this.windSpeed = this.noaaData.currentobservation.Winds,
-        //         this.windDirection = this.noaaData.currentobservation.Windd,
-        //         this.periods = this.noaaData.time.startPeriodName.length));
-        // this.setRefreshCurrent(60000)
-        this.updateWeather(60000)
-    },
+    // mounted() {
+    //     // Axios
+    //     //     .get('https://forecast.weather.gov/MapClick.php?lat=47.46551607542392&lon=-122.34916463265634&FcstType=json')
+    //     //     .then(response => (this.noaaData = response.data,
+    //     //         this.currentTemp = this.noaaData.currentobservation.Temp,
+    //     //         this.currentWeather = this.noaaData.currentobservation.Weather,
+    //     //         this.windSpeed = this.noaaData.currentobservation.Winds,
+    //     //         this.windDirection = this.noaaData.currentobservation.Windd,
+    //     //         this.periods = this.noaaData.time.startPeriodName.length));
+    //     // this.setRefreshCurrent(60000)
+    //     this.updateWeather(60000)
+    // },
 }
 
 </script>
