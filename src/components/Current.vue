@@ -116,7 +116,8 @@ export default {
     }
     #clock {
         /* float: left; */
-        height: 100px;
+        padding-top: 30px;
+        height: 60px;
         font-size: 48px;
     }
     #current {
@@ -134,7 +135,7 @@ export default {
     #forecast {
         clear: both;
         float: none;
-        margin: auto;
+        /* margin: auto; */
         max-width: 600px;
     }
     .clear {
