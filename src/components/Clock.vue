@@ -17,18 +17,22 @@ export default {
       return ('0' + number).slice(-2)
     },
     setTime () {
+      const date = new Date()
+      this.hours = date.getHours()
+      if (this.hours > 12)
+        this.hours = this.hours - 12;
+      this.minutes = this.zeroPad(date.getMinutes())
+      this.seconds = this.zeroPad(date.getSeconds())
+      },
+    updateTime () {
       setInterval(() => {
-        const date = new Date()
-        this.hours = date.getHours()
-        if (this.hours > 12)
-          this.hours = this.hours - 12;
-        this.minutes = this.zeroPad(date.getMinutes())
-        this.seconds = this.zeroPad(date.getSeconds())
+        this.setTime()
       }, 1000)
     }
   },
   mounted () {
     this.setTime()
+    this.updateTime()
   }
 }
 </script>
