@@ -176,7 +176,7 @@ export default {
         clear: both;
         float: none;
         margin: auto;
-        max-width: 800px;
+        max-width: 767px;
     }
     .clear {
         clear: both;
