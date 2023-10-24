@@ -1,6 +1,6 @@
 <template>
     <div class="tomorrow"
-        data-location-id="126104"
+        data-location-id="113052"
         data-language="EN"
         data-unit-system="IMPERIAL"
         data-skin="light"
