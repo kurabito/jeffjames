@@ -85,6 +85,11 @@ export default {
                 // }
                 // StaticTime.setTime()
                 this.setTime()
+                this.reloadCounter++
+                if (this.reloadCounter >= 180) {
+                    this.reloadCounter = 0
+                    location.reload(true)
+                }
                 this.view++
                 this.view = this.view % 4
                 this.setView(this.view)
@@ -115,6 +120,7 @@ export default {
             view: 0,
             hours: 0,
             minutes: 0,
+            reloadCounter: 0
         }
     },
 
@@ -130,6 +136,7 @@ export default {
         // this.updateWeather(60000)
 
         // this.reloadPage(3600000)
+        this.setTime()
         document.getElementById("aqi").style.display = "none"
         document.getElementById("traffic").style.display = "none"
         document.getElementById("calendar").style.display = "none"
@@ -149,7 +156,7 @@ export default {
     }
     #clock {
         /* float: left; */
-        padding-top: 30px;
+        padding-top: 20px;
         height: 60px;
         font-size: 48px;
     }
