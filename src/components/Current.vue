@@ -13,13 +13,17 @@
             </div>
 
         <!-- <div id="current"> -->
-            <iframe id="aqi" title="AQI" height="230" width="230" src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"></iframe>
+            <!-- <iframe id="aqi" src="https://widget.airnow.gov/aq-dial-widget/?city=Raleigh&state=NC&country=USA&transparent=true" title="AQI" style="border: none; border-radius: 25px;" height="340" width="230"></iframe> -->
+
+            <div id="aqi">
+                <!-- <iframe title="Example 2" height="340" src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true" style="border: none; border-radius: 25px;" width="230"></iframe> -->
+                <AQI />
+        </div>
 
             <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showNav=0&showPrint=0&showCalendars=0&showTz=1&mode=AGENDA&src=amVmZmphbWVzQGdtYWlsLmNvbQ&src=MjZ0azZncGc1NDVuNTExbG9mOW03a2tqbTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dHBiMGowNnNtbTlmOTQ3Z3FydmVkYmM5NmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZWM1NDI5ZDE1NDYzMjg2M2NlZjgxN2UzNjc0OTQwZTIzMDJlNzU1NDEwYzdjMWEwZDQzY2EzNWE0ZjAzZTM1Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NWpqZzIzY21ydDQ5MG01M2ppbzRyb2EyMmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cGpndjhtMmhtMGpuZDlzYWhlcG9xMjFqMzI5cmVmMzNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bnl0aW1lcy5jb21fODlhaTRpanBiNzMzZ3QyOHJnMjFkMmMyZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%239E69AF&color=%23D50000&color=%234285F4&color=%23A79B8E&color=%23F6BF26&color=%2333B679&color=%23616161&color=%23D50000&color=%233F51B5" frameborder="0" scrolling="no"></iframe>
 
             <iframe id="traffic" src="https://embed.waze.com/iframe?zoom=10&lat=47.45&lon=-122.3&ct=livemap" allowfullscreen></iframe>
 
-            <!-- <AQI /> -->
 
         <!-- </div> -->
         <!-- </div> -->
@@ -31,7 +35,7 @@
 // import Clock from './Clock.vue'
 // import Axios from 'axios'
 // import CurrentNOAA from './Weather/CurrentNOAA.vue'
-// import AQI from './Weather/AQI.vue'
+import AQI from './Weather/AQI.vue'
 import Forecast from './Weather/Forecast.vue'
 // import StaticTime from './StaticTime.vue'
 
@@ -41,7 +45,7 @@ export default {
     components: {
         // Clock,
         // CurrentNOAA,
-        // AQI,
+        AQI,
         Forecast,
         // StaticTime
     },
@@ -165,8 +169,9 @@ export default {
         font-size: 48px;
         /* text-align: center; */
     }
-    #content {
+    #aqi {
         margin: auto;
+        width: 800px;
         height: 450px;
     }
     #current {
@@ -177,15 +182,6 @@ export default {
         float: left;
         margin-right: 50px;
         font-size: 24px;
-    }
-    #aqi {
-        /* float: left; */
-        /* margin-top: 50px;
-        margin-bottom: 50px; */
-        padding: 50px;
-        margin: auto;
-        border: none;
-        border-radius: 25px;
     }
     #forecast {
         clear: both;

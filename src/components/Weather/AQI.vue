@@ -4,7 +4,7 @@
            data-language="EN"
            data-unit-system="IMPERIAL"
            data-skin="light"
-           data-widget-type="aqiMini"
+           data-widget-type="aqiPollutant"
            style="padding-bottom:22px;position:relative;"
         >
           <a
