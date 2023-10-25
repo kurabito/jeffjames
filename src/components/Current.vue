@@ -7,7 +7,7 @@
             {{hours}}:{{minutes}}
         </div>
 
-        <div id="content">
+        <!-- <div id="content"> -->
             <div id="forecast">
                 <Forecast />
             </div>
@@ -21,7 +21,7 @@
 
             <!-- <AQI /> -->
 
-        </div>
+        <!-- </div> -->
         <!-- </div> -->
     <!-- </div> -->
 </template>
@@ -140,6 +140,7 @@ export default {
         document.getElementById("aqi").style.display = "none"
         document.getElementById("traffic").style.display = "none"
         document.getElementById("calendar").style.display = "none"
+        document.getElementById("footer").style.display = "none"
         this.changeView()
     },
 }
@@ -158,15 +159,15 @@ export default {
         /* float: left; */
         /* padding-top: 10px; */
         clear: both;
+        /* padding-bottom: 20px; */
         margin: auto;
-        height: 50px;
+        height: 70px;
         font-size: 48px;
         /* text-align: center; */
     }
     #content {
         margin: auto;
         height: 450px;
-        padding-bottom: 10px;
     }
     #current {
         width: max-content;
@@ -181,6 +182,7 @@ export default {
         /* float: left; */
         /* margin-top: 50px;
         margin-bottom: 50px; */
+        padding: 50px;
         margin: auto;
         border: none;
         border-radius: 25px;
@@ -189,7 +191,6 @@ export default {
         clear: both;
         float: none;
         margin: auto;
-        padding-top: 20px;
         max-width: 767px;
 
     }
