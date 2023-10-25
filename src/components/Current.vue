@@ -156,8 +156,8 @@ export default {
     }
     #clock {
         /* float: left; */
-        padding-top: 20px;
-        height: 60px;
+        padding-top: 10px;
+        height: 50px;
         font-size: 48px;
     }
     #current {
@@ -177,6 +177,7 @@ export default {
         float: none;
         margin: auto;
         max-width: 767px;
+        max-height: 450px;
     }
     .clear {
         clear: both;
