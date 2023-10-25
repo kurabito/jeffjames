@@ -109,6 +109,8 @@ export default {
             this.hours = date.getHours()
             if (this.hours > 12)
                this.hours = this.hours - 12;
+            if (this.hours == 0)
+               this.hours = 12;
             this.minutes = this.zeroPad(date.getMinutes())
             },
     },
