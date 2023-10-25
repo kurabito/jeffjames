@@ -20,6 +20,6 @@ export default {
 #header
 {
   max-width: 1200px;
-  clear: both
+  /* clear: both */
 }
 </style>

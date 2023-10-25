@@ -1,5 +1,5 @@
 <template>
-    <div class="clear">
+    <!-- <div class="clear"> -->
 
         <div id="clock">
             <!-- <Clock /> -->
@@ -7,23 +7,23 @@
             {{hours}}:{{minutes}}
         </div>
 
-        <div id="forecast">
-            <Forecast />
-        </div>
+        <div id="content">
+            <div id="forecast">
+                <Forecast />
+            </div>
 
-        <div id="current">
-            <iframe id="aqi" title="AQI" height="230" width="230" class="pad-right"
-                src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"
-                style="border: none; border-radius: 25px;">
-            </iframe>
+        <!-- <div id="current"> -->
+            <iframe id="aqi" title="AQI" height="230" width="230" src="https://widget.airnow.gov/aq-dial-widget/?city=Seattle&state=WA&country=USA&transparent=true"></iframe>
 
-            <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=230&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=amVmZmphbWVzQGdtYWlsLmNvbQ&src=MjZ0azZncGc1NDVuNTExbG9mOW03a2tqbTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NWpqZzIzY21ydDQ5MG01M2ppbzRyb2EyMmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OHRtNmo4MWE0cGk5ZXVuZmRmZGdqbDFoZjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGhvcmx5QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cGpndjhtMmhtMGpuZDlzYWhlcG9xMjFqMzI5cmVmMzNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=MDYzZmJqc3Fia2Q5dGx1ODRjZDk4bG01NDhsZDRrOWtAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bnl0aW1lcy5jb21fODlhaTRpanBiNzMzZ3QyOHJnMjFkMmMyZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%239E69AF&color=%23D50000&color=%23F6BF26&color=%23A79B8E&color=%23E67C73&color=%2333B679&color=%23616161&color=%23039BE5&color=%23D50000&color=%233F51B5" class="pad-right" style="border:solid 1px #777" width="800" height="450" frameborder="0" scrolling="no"></iframe>
+            <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showNav=0&showPrint=0&showCalendars=0&showTz=1&mode=AGENDA&src=amVmZmphbWVzQGdtYWlsLmNvbQ&src=MjZ0azZncGc1NDVuNTExbG9mOW03a2tqbTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dHBiMGowNnNtbTlmOTQ3Z3FydmVkYmM5NmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZWM1NDI5ZDE1NDYzMjg2M2NlZjgxN2UzNjc0OTQwZTIzMDJlNzU1NDEwYzdjMWEwZDQzY2EzNWE0ZjAzZTM1Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NWpqZzIzY21ydDQ5MG01M2ppbzRyb2EyMmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cGpndjhtMmhtMGpuZDlzYWhlcG9xMjFqMzI5cmVmMzNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bnl0aW1lcy5jb21fODlhaTRpanBiNzMzZ3QyOHJnMjFkMmMyZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%239E69AF&color=%23D50000&color=%234285F4&color=%23A79B8E&color=%23F6BF26&color=%2333B679&color=%23616161&color=%23D50000&color=%233F51B5" frameborder="0" scrolling="no"></iframe>
 
-            <iframe id="traffic" src="https://embed.waze.com/iframe?zoom=10&lat=47.45&lon=-122.3&ct=livemap" width="800" height="450" allowfullscreen></iframe>
+            <iframe id="traffic" src="https://embed.waze.com/iframe?zoom=10&lat=47.45&lon=-122.3&ct=livemap" allowfullscreen></iframe>
 
             <!-- <AQI /> -->
+
         </div>
-    </div>
+        <!-- </div> -->
+    <!-- </div> -->
 </template>
 
 <script>
@@ -156,9 +156,17 @@ export default {
     }
     #clock {
         /* float: left; */
-        padding-top: 10px;
+        /* padding-top: 10px; */
+        clear: both;
+        margin: auto;
         height: 50px;
         font-size: 48px;
+        /* text-align: center; */
+    }
+    #content {
+        margin: auto;
+        height: 450px;
+        padding-bottom: 10px;
     }
     #current {
         width: max-content;
@@ -170,14 +178,31 @@ export default {
         font-size: 24px;
     }
     #aqi {
-        float: left;
+        /* float: left; */
+        /* margin-top: 50px;
+        margin-bottom: 50px; */
+        margin: auto;
+        border: none;
+        border-radius: 25px;
     }
     #forecast {
         clear: both;
         float: none;
         margin: auto;
+        padding-top: 20px;
         max-width: 767px;
-        max-height: 450px;
+
+    }
+    #calendar {
+        margin: auto;
+        border-width: 0;
+        width: 800px;
+        height: 450px;
+    }
+    #traffic {
+        margin: auto;
+        width: 800px;
+        height: 450px;
     }
     .clear {
         clear: both;

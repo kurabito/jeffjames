@@ -7,7 +7,7 @@
         data-widget-type="upcoming"
         style="padding-bottom:22px;position:relative;"
     >
-        <a
+        <!-- <a
         href="https://www.tomorrow.io/weather-api/"
         rel="nofollow noopener noreferrer"
         target="_blank"
@@ -19,7 +19,7 @@
             width="250"
             height="18"
         />
-        </a>
+        </a> -->
     </div>
 </template>
 
