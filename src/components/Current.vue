@@ -84,9 +84,6 @@ export default {
 
     mounted() {
         this.setTime()
-        // document.getElementById("forecast").style.display = "none"
-        // document.getElementById("traffic").style.display = "none"
-        // document.getElementById("calendar").style.display = "none"
         document.getElementById("footer").style.display = "none"
         this.changeView()
     },
@@ -105,10 +102,6 @@ export default {
         width: 800px;
         height: 450px;
     }
-    /* #current {
-        width: max-content;
-        margin: auto;
-    } */
     #forecast {
         clear: both;
         float: none;
