@@ -84,9 +84,9 @@ export default {
 
     mounted() {
         this.setTime()
-        document.getElementById("forecast").style.display = "none"
-        document.getElementById("traffic").style.display = "none"
-        document.getElementById("calendar").style.display = "none"
+        // document.getElementById("forecast").style.display = "none"
+        // document.getElementById("traffic").style.display = "none"
+        // document.getElementById("calendar").style.display = "none"
         document.getElementById("footer").style.display = "none"
         this.changeView()
     },
@@ -105,26 +105,28 @@ export default {
         width: 800px;
         height: 450px;
     }
-    #current {
+    /* #current {
         width: max-content;
         margin: auto;
-    }
+    } */
     #forecast {
         clear: both;
         float: none;
         margin: auto;
         max-width: 767px;
-
+        display: none;
     }
     #calendar {
         margin: auto;
         border-width: 0;
         width: 800px;
         height: 450px;
+        display: none;
     }
     #traffic {
         margin: auto;
         width: 800px;
         height: 450px;
+        display: none;
     }
 </style>
