@@ -9,6 +9,28 @@
         <table class="center">
             <tr>
                 <td class="center">
+                    <p><u>29th, Bellevue Golf Course, Friday November 24, 2023</u></p>
+                    <p>Low Net Results</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <NetScore player="Ethan Phillips" score="95" handicap="41" winner="true" />
+                        <NetScore player="John Phillips" score="100" handicap="36" />
+                        <NetScore player="Jeff James" score="104" handicap="38" />
+                        <NetScore player="Ed Phillips" score="107" handicap="31" />
+                    </table>
+                    <p>Low Gross Results:</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <GrossScore player="Ethan Phillips" front="45" back="50" winner="true" />
+                        <GrossScore player="John Phillips" front="46" back="54" />
+                        <GrossScore player="Andy Neyens" front="50" back="51" />
+                        <GrossScore player="Jeff James" front="54" back="50" />
+                        <GrossScore player="Ed Phillips" front="58" back="49" />
+                    </table>
+                    <p class="notes">
+                        Sunny but cold.  Frosty in the shade, pleasant in the sun.
+                        Mostly temporary greens on the front nine, but many of the
+                        permanent greens were open on the back.
+                    </p>
+                    <br /><br />
                     <p><u>28th, Jefferson Park Golf Course, Friday November 25, 2022</u></p>
                     <p>Low Net Results</p>
                     <table cellpadding="0" cellspacing="0">
