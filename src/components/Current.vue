@@ -70,7 +70,7 @@ export default {
                 this.view++
                 this.view = this.view % 4
                 this.setView(this.view)
-            }, 20000)
+            }, 30000)
         },
     },
 
