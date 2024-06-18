@@ -13,7 +13,7 @@
 
     <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&mode=AGENDA&src=amVmZmphbWVzQGdtYWlsLmNvbQ&src=MjZ0azZncGc1NDVuNTExbG9mOW03a2tqbTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZWM1NDI5ZDE1NDYzMjg2M2NlZjgxN2UzNjc0OTQwZTIzMDJlNzU1NDEwYzdjMWEwZDQzY2EzNWE0ZjAzZTM1Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF&color=%23D50000&color=%23A79B8E&color=%2333B679" frameborder="0" scrolling="no"></iframe>
 
-    <iframe id="traffic" src="https://embed.waze.com/iframe?zoom=9&lat=47.45&lon=-122.3&ct=livemap" allowfullscreen></iframe>
+    <iframe id="traffic" src="https://embed.waze.com/iframe?zoom=9&lat=47.45&lon=-122.8&ct=livemap" allowfullscreen></iframe>
 </template>
 
 <script>
