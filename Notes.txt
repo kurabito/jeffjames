@@ -1,0 +1,7 @@
+
+6/29/2024
+
+npm install -S @fawmi/vue-google-maps
+
+npm audit fix
+
