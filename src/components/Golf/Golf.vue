@@ -9,6 +9,26 @@
         <table class="center">
             <tr>
                 <td class="center">
+                    <p><u>30th, Jefferson Park Golf Course, Friday November 29, 2024</u></p>
+                    <p>Low Net Results</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <NetScore player="Ed Phillips" score="98" handicap="34" winner="true" />
+                        <NetScore player="Bob Phillips" score="109" handicap="37" />
+                        <NetScore player="Jeff James" score="108" handicap="36" />
+                        <NetScore player="Andy Neyens" score="109" handicap="30" />
+                    </table>
+                    <p>Low Gross Results:</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <GrossScore player="Ed Phillips" front="51" back="47" winner="true" />
+                        <GrossScore player="Jeff James" front="59" back="49" />
+                        <GrossScore player="Andy Neyens" front="61" back="48" />
+                        <GrossScore player="Bob Phillips" front="55" back="54" />
+                    </table>
+                    <p class="notes">
+                        Overcast and cold, but dry and  not freezing.  Started about 11:15
+                        and finished before dusk, about 4:15.  Lots of people playing!
+                    </p>
+                    <br /><br />
                     <p><u>29th, Bellevue Golf Course, Friday November 24, 2023</u></p>
                     <p>Low Net Results</p>
                     <table cellpadding="0" cellspacing="0">
