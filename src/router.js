@@ -11,6 +11,7 @@ import {
   import Weather from './components/Weather/Weather.vue';
   import Time from './components/Time.vue';
   import Current from './components/Current.vue';
+  import Christmas from './components/Christmas.vue';
   
   export default () =>
     createRouter({
@@ -60,6 +61,11 @@ import {
           path: '/current',
           name: 'Current Time and Weather',
           component: Current
+        },
+        {
+          path: '/christmas',
+          name: 'Merry Christmas!',
+          component: Christmas
         }
     ]
     });
