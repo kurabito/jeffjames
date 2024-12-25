@@ -43,6 +43,11 @@ import {
           component: Golf
         },
         {
+          path: '/Golf.aspx',
+          name: 'Golf',
+          component: Golf
+        },
+        {
           path: '/clock',
           name: 'Clock',
           component: Clock
