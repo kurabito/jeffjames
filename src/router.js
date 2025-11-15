@@ -44,7 +44,6 @@ import {
         },
         {
           path: '/Golf.aspx',
-          name: 'Golf',
           component: Golf
         },
         {
