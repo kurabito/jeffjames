@@ -21,10 +21,10 @@
                     </table>
                     <p>Low Gross Results:</p>
                     <table cellpadding="0" cellspacing="0">
-                        <tr><td class="name"><b>Ed Phillips</b></td><td></td><td></td><td class="score"><b>107</b></td></tr>
+                        <GrossScore player="Ed Phillips" front="54" back="53" winner="true" />
                         <GrossScore player="Bob Phillips" front="57" back="53" />
-                        <tr><td class="name">John Phillips</td><td></td><td></td><td>113</td></tr>
-                        <tr><td class="name">Ethan Phillips</td><td></td><td></td><td>114</td></tr>
+                        <GrossScore player="John Phillips" front="54" back="59" />
+                        <GrossScore player="Ethan Phillips" front="60" back="54" />
                         <GrossScore player="Andy Neyens" front="59" back="56" />
                         <GrossScore player="Jeff James" front="58" back="58" />
                     </table>
