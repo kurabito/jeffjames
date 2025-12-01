@@ -9,6 +9,29 @@
         <table class="center">
             <tr>
                 <td class="center">
+                    <p><u>31st, Jackson Park Golf Course, Friday November 28, 2025</u></p>
+                    <p>Low Net Results</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <NetScore player="Bob Phillips" score="110" handicap="40" winner="true" />
+                        <NetScore player="Ed Phillips" score="107" handicap="31" />
+                        <NetScore player="Andy Neyens" score="115" handicap="37" />
+                        <NetScore player="Jeff James" score="116" handicap="38" />
+                        <NetScore player="John Phillips" score="113" handicap="34" />
+                        <NetScore player="Ethan Phillips" score="114" handicap="33" />
+                    </table>
+                    <p>Low Gross Results:</p>
+                    <table cellpadding="0" cellspacing="0">
+                        <tr><td class="name"><b>Ed Phillips</b></td><td></td><td></td><td class="score"><b>107</b></td></tr>
+                        <GrossScore player="Bob Phillips" front="57" back="53" />
+                        <tr><td class="name">John Phillips</td><td></td><td></td><td>113</td></tr>
+                        <tr><td class="name">Ethan Phillips</td><td></td><td></td><td>114</td></tr>
+                        <GrossScore player="Andy Neyens" front="59" back="56" />
+                        <GrossScore player="Jeff James" front="58" back="58" />
+                    </table>
+                    <p class="notes">
+                        Warm and sunny all day, but the course beat us up!
+                    </p>
+                    <br /><br />
                     <p><u>30th, Jefferson Park Golf Course, Friday November 29, 2024</u></p>
                     <p>Low Net Results</p>
                     <table cellpadding="0" cellspacing="0">
